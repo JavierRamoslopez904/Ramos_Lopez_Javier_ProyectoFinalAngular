@@ -1,0 +1,62 @@
+#navbar {
+  padding: 20;
+  padding-top: 20px;
+  background-color :green;
+  height: 90px;
+  border-radius: 20px;
+}
+
+#navbar li{
+  list-style: none;
+  display: inline;
+}
+#navbar * {
+  padding: 10px;
+}
+
+#accesoo{
+  font-size: 20px;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.primerBoton{
+  background-color: black;
+  border-radius: 20px;
+}
+
+.primerBoton:hover{
+  background-color:darkblue;
+}
+
+.segundoBoton{
+  background-color: black;
+  border-radius: 20px;
+}
+
+.segundoBoton:hover{
+  background-color:darkblue;
+}
+
+.acceso{
+  margin-left: 500px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.acceso2{
+  margin-left: 500px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tercerBoton{
+  background-color: black;
+  border-radius: 20px;
+}
+
+.tercerBoton:hover{
+  background-color: darkblue;
+}

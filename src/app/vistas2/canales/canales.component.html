@@ -1,0 +1,3 @@
+<div id = "jugadores">
+  <app-canal *ngFor="let datos of athleticPlayers" [datos]="datos" (click)="mostrarNombre(datos.name)"></app-canal>
+</div>

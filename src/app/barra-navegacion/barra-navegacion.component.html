@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row">
+    <ul id="navbar">
+      <li routerLink="/canales"><button class="primerBoton"><span id="accesoo">API REST</span></button></li>
+      <li routerLink="/imagen"><button class="segundoBoton"><span id="accesoo">IMAGEN</span></button></li>
+      <li routerLink="/estadisticas"><button class="tercerBoton"><span id="accesoo">JUGADORES</span></button></li>
+      <li *ngIf="miToken == 0" routerLink="/formulario"><span class="acceso">Acceso : </span></li>
+      <li *ngIf="miToken != 0" class="accesoo" (click)="logout()"><span class="acceso2"><strong>Usuario : </strong>{{nombreUsuario}}</span></li>
+    </ul>
+</div>
+</div>
